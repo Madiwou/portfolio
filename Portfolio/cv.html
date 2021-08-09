@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="exemple.css" />
+		<title>Maquette</title>
+	</head>
+
+	<body>
+		<header id="home">
+			<nav>
+				<ul>
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#formation">FORMATION & COMPETENCES</a></li>
+						<li><a href="#realisation">REALISATIONS</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+			<div id="header">
+				<div class="portrait"><center><span class="madiwou">Madiwou Daba Sy DIAITE</span></center><br>
+					<center>Développeur web et mobile,spécialisé dans les langages de programmation
+					(HTML5, CSS3, JAVASCRIPT, BOOTSTRAP, PHP,PYTHON)
+					Passioné du monde numérique,autodidacte et toujours à l'affut des 
+					nouveautés du web.</center>
+				</div>
+				<div class="tof"><img src="portfolio.jpeg" width="500px"></div>
+			</div>
+		</header>
+
+		<section>
+			<h1 id="formation">FORMATION & COMPETENCES</h1>
+			<div id="competence">
+				<div><img src="html.png"></div>
+				<div><img src="css.png"></div>
+				<div><img src="php.png"></div>
+			</div>
+			<div id="formation">
+				<div><img src="java.png"></div>
+				<div><img src="bootstrap.png"></div>
+				<div><img src="python.png"></div>
+			</div>
+		</section>
+		<div class="fond">
+		<section class="realisation">
+			<h1 id="realisation">REALISATIONS</h1><br>
+			
+			<div id="realisation">
+				<div><a href="#"><img src="projet1.png" width="350px" height="400px"></a></div>
+				<div><a href="tuto/tuto.html" target="blank"><img src="projet3.png" width="350px" height="400px"></a></div>
+				<div><a href="siteWeb/page.html" target="blank"><img src="projet4.png" width="350px" height="400px"></a></div>
+			</div>
+
+			
+		</section>
+		
+		<section class="contact" >
+                <h1 id="contact">AVEZ VOUS DES QUESTION?</h1>
+                <form method="post" action="traitement.php">
+                    <p>
+                    Nom et Prénom<br>
+                        <label for="civilité">Civilité :</label><br>
+                        <select name="civilité" id="civilité">
+                        <option value="Selectionner">Selectionner</option>
+                        <option value="Monsieur">Monsieur</option>
+                        <option value="Madame">Madame</option>
+                        <option value="Mademoiselle">Mademoiselle</option>
+                        </select>
+                        <label for="Prénom">Prénom :</label>
+                        <input type="text" name="Prénom" id="Prénom" placeholder="Ex:Madiwou">
+                        <label for="Nom">Nom :</label>
+                        <input type="text" name="Nom" id="Nom" placeholder="Ex:DIAITE"><br>
+                        <label for="email">Email :</label><br>
+                        <input type="email" name="Email" id="Email" placeholder="Ex:bababenzema@gmail.com" size="45"><br>
+                        <label for="Numéro">Numéro de Téléphone :</label><br>
+                        <input type="tel" name="Numéro" id="Numéro" placeholder="Ex:+221 77 401 94 36"><br>
+                        <label for="Message">Message</label><br>
+                        <textarea name="Message" id="Message" rows="20" cols="85"></textarea><br>
+                        En soumettant ce formulaire je déclare accepter les conditions de traitement des données<br>
+                        <input type="checkbox" name="compris" id="compris">
+                        <label for="compris">J'ai compris!</label><br>
+                        <input type="submit" value="Envoyez votre demande">
+
+                    </p>
+                    
+                </form>
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>

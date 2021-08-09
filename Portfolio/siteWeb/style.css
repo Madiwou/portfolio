@@ -1,0 +1,116 @@
+/*header*/
+ul
+{
+	list-style-type: none;
+	font-size: 17px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+li 
+{
+	padding: 50px;
+}
+nav 
+{
+	background-color: navy;  
+}
+
+a 
+{
+	color: white;
+}
+a:hover /*apparence du menu*/
+{
+	color: #f1820b;
+	
+}
+a:focus
+{
+	background-color: navy;
+}
+.gree
+{
+	background-color: silver;
+	width: 100%;
+	height: 1cm;
+	position: relative;
+	bottom: 25px;
+}
+/* après header*/
+
+#annonce
+{
+	text-align: center;
+}
+em /*Tout voir aligner à droite*/
+{
+	float: right;
+}
+strong
+{
+	font-family: Algerian regular;
+	font-size: 17px;
+}
+
+
+/*correspond à la section 1*/
+
+#premier
+{
+	display: flex;
+	flex-direction: row;
+}
+
+/*correspond à la section 2*/
+
+#second
+{
+	display: flex;
+	flex-direction: row;/*aligner honrizontalement*/
+	justify-content: space-around;
+	align-content: space-between;
+	padding: 50px;
+	flex-wrap: wrap;/* aller à la ligne après les quatre premiers images*/ 
+	align-items: self-start;
+}
+#troisieme
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 50px;
+}
+p 
+{
+	font-size: 20px;
+	width: 50%;
+	border: 3px navy solid;
+	margin: auto;
+	padding: 12px;
+}
+h2
+{
+	text-align: center;
+}
+/*footer*/
+
+.bas
+{
+	width: 1332px;
+	height: 75px;
+}
+footer
+{
+	background-color: navy;
+	height: 250px;
+}
+#logo 
+{
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	justify-content: center;
+}
+

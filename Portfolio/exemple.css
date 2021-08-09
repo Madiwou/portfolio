@@ -1,0 +1,112 @@
+/*header*/
+ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+li 
+{
+	padding: 20px;
+
+}
+a 
+{
+	color: white;
+	text-decoration: none;
+}
+#header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.portrait
+{
+	border-radius: 75px;
+	background-color: silver;
+	width: 375px;
+	height: 250px;
+	padding: 10px;
+	color: #324b61;
+	font-size: 1.2em;
+	opacity: 0.9;
+}
+.tof
+{
+	opacity: 0.9;
+	
+}
+.madiwou
+{
+	font-size: 2em;
+}
+header
+{
+	background-image: url('header.gif')
+}
+/*body1*/
+#competence
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+#formation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+/*body2*/
+#realisation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	animation: move 2s ease infinite;
+	position: relative;
+}
+@keyframes move {
+	0%{
+		left: 0;
+	}
+	
+	50%{
+		left: 200px;
+	}
+
+	100%{
+		left: 0;
+	}
+}
+.fond
+{
+	background-image: url('fondContact.webp');
+}
+/*body3*/
+p 
+{
+	font-size: 20px;
+	width: 50%;
+	border: 3px silver solid;
+	margin: auto;
+	padding: 12px;
+	color: white;
+}
+h1
+{
+	text-align: center;
+}
+.contact
+{
+	margin-top: -20px;
+}
+.contact h1
+{
+	color: white;
+	padding: 15px;
+}
